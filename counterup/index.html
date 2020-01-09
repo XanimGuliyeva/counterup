@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+    <button onclick="opentab('Html')">Html</button>
+    <button onclick="opentab('Css')">Css</button>
+    <button onclick="opentab('JavaScript')">Javascript</button>
+    
+    <div id="Html" class="panel">
+        Hello
+    </div>
+    <div id="Css" style="display:none" class="panel">
+        Welcome
+    </div>
+    <div id="JavaScript" style="display:none" class="panel">
+        Nice to see you
+    </div>
+
+<div class="counterup mt-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-3 counter text-center" data-count="100">0</div>
+            <div class="col-lg-3 counter text-center ml-2 mr-2" data-count="50">0</div>
+            <div class="col-lg-3 counter text-center" data-count="70">0</div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/script.js"></script>
+</html>
